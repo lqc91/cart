@@ -1,0 +1,23 @@
+.g-header{
+	width:100%;
+	height:60px;
+	line-height:60px;
+	background-color:#010101;
+}
+.g-banner{
+	width:100%;
+	height:160px;
+	background-image:url('../img/cart-header-bg.jpg');
+}
+.g-settlement{}
+.g-footer{
+	width:100%;
+	height:96px;
+	line-height:96px;
+	background-color:#010101;
+}
+
+.m-settlement .u-title{
+	font-size:30px;
+	line-height:86px;
+}
