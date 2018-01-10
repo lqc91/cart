@@ -7,6 +7,7 @@
 	*zoom:1;
 }
 
+/* 布局 */
 .g-header{
 	height:60px;
 	line-height:60px;
@@ -31,28 +32,28 @@
 	border-top:1px solid #e1e1e1;
 }
 
-
-.u-nav{
-	float:left;
+/* 模块 */
+.m-nav{
 	font-size:0;
-	height:60px;
 }
-.u-nav a{
+.m-nav a{
 	display:inline-block;
 	position:relative;
+	vertical-align:middle;
+}
+
+.m-nav-hd a{
 	font-size:14px;
 	color:#fff;
 	padding:0 26px;
-	vertical-align:middle;
 }
-.u-nav .logo{
+.m-nav-hd .logo{
 	width:128px;
 	height:40px;
 	margin:0 26px;
 	padding:0;
 }
-.u-nav .icn-new{
-	display:inline-block;
+.m-nav-hd .icn-new{
 	position:absolute;
 	top:10px;
 	width:16px;
@@ -60,11 +61,30 @@
 	background:url("../img/icon-new.png") no-repeat;
 }
 
-.g-header ul{
-	float:right;
-	font-size:0;
+.m-nav-ft{
+	width:1120px;
+	margin:0 auto;
+	color:#838383;
+}
+.m-nav-ft a{
+	display:inline-block;
+	font-size:12px;
+	line-height:26px;
+	margin:26px 30px 0 0;
 }
 
+
+.m-cart{
+	width:1100px;
+	color:#757575;
+	background-color:#fff;
+	border:1px solid #dcdcdc;
+	box-shadow:0 0 5px 5px #ebebeb;
+}
+
+
+
+/* 元件 */
 .u-sch{
 	display:inline-block;
 	width:265px;
@@ -94,10 +114,9 @@
 	display:inline-block;
 	width:234px;
 	height:36px;
-	vertical-align:middle;
+	line-height:36px;
 }
 .u-logined .icn-cart{
-	display:inline-block;
 	width:18px;
 	height:18px;
 	padding:9px;
@@ -105,7 +124,6 @@
 	background:url("../img/shopcar.png") 0 -214px no-repeat content-box;
 }
 .u-logined .icn-msg{
-	display:inline-block;
 	width:20px;
 	height:20px;
 	padding:8px;
@@ -113,20 +131,20 @@
 	background:url("../img/icon-1-sprite_w22.png") -1px -46px no-repeat content-box;
 }
 .u-logined .icn-ava{
-	display:inline-block;
 	width:36px;
 	height:36px;
+	padding:0;
 	margin:0 20px;
 	border-radius:50%;
-	background:url("../img/ava.jpg") 0/cover no-repeat;
+	background:url("../img/ava.jpg") 0/cover no-repeat content-box;
 }
 
 .m-cart{
-	width:1100px;
-	color:#757575;
-	background-color:#fff;
-	border:1px solid #dcdcdc;
-	box-shadow:0 0 5px 5px #ebebeb;
+	/*width:1100px;*/
+	/*color:#757575;*/
+	/*background-color:#fff;*/
+	/*border:1px solid #dcdcdc;*/
+	/*box-shadow:0 0 5px 5px #ebebeb;*/
 }
 
 
@@ -275,49 +293,33 @@
 	border:1px solid #99312e;
 }
 
-.footer-wrap{
-	width:1120px;
-	color:#838383;
-	margin:0 auto;
-}
-
-.footer-link{
+.u-sns{
 	font-size:0;
+	/*margin:30px 0 34px;*/
 }
-.footer-link a{
+.u-sns a{
 	display:inline-block;
-	font-size:12px;
-	line-height:26px;
-	margin:26px 30px 0 0;
+	width:32px;
+	height:32px;
+	margin:30px 0 34px 12px;
+	background:url("../img/footer-sprite.png") no-repeat;
+}
+.u-sns .weixin{
+	background-position:0 -279px;
+}
+.u-sns .weibo{
+	background-position:0 -321px;
+}
+.u-sns .qq{
+	background-position:0 -363px;
 }
 
-.footer-copyright{
+.u-cprt{
 	width:1120px;
 	margin:52px auto 20px;
 	font-size:10px;
 	line-height:24px;
 	color:#565656;
-}
-
-.footer-sns{
-	font-size:0;
-	margin:30px 0 34px;
-}
-.footer-sns a{
-	display:inline-block;
-	width:32px;
-	height:32px;
-	margin-left:12px;
-	background:url("../img/footer-sprite.png") no-repeat;
-}
-.footer-sns .weixin{
-	background-position:0 -279px;
-}
-.footer-sns .weibo{
-	background-position:0 -321px;
-}
-.footer-sns .qq{
-	background-position:0 -363px;
 }
 
 /* 功能 */
