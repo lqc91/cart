@@ -64,16 +64,8 @@
 }
 
 .m-nav-ft {
-	width: 1120px;
+	width: 1140px;
 	margin: 0 auto;
-	color: #838383;
-}
-
-.m-nav-ft a {
-	display: inline-block;
-	font-size: 12px;
-	line-height: 26px;
-	margin: 26px 30px 0 0;
 }
 
 .m-cart {
@@ -296,31 +288,62 @@
 	border: 1px solid #99312e;
 }
 
+.u-link{
+	margin:23px 0;
+}
+.u-link a {
+	display: inline-block;
+	font-size: 12px;
+	padding:7px 15px;
+	line-height:12px;
+	color:#959aa0;
+}
+.u-link a:hover{
+	color:#fff;
+}
+
+.u-sns{
+	margin:32px 0;
+}
 .u-sns a {
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	margin: 30px 0 34px 12px;
+	margin:0 6px;
+	opacity:1;
 	background: url("../img/footer-sprite.png") no-repeat;
 }
-
-.u-sns .weixin {
+.u-sns a:hover{
+	opacity:.8;
+}
+.u-sns .weixin{
 	background-position: 0 -279px;
 }
+.u-sns .weixin i{
+	display:none;
+}
+.u-sns .weixin:hover i{
+	display:block;
+	position:absolute;
+	bottom:40px;
+	left:-66px;
+	width:160px;
+	height:210px;
+	background:url("../img/footer-sprite.png") -3px -2px no-repeat;
+}
 
-.u-sns .weibo {
+.u-sns .weibo{
 	background-position: 0 -321px;
 }
 
-.u-sns .qq {
+.u-sns .qq{
 	background-position: 0 -363px;
 }
 
 .u-cprt {
-	width: 1120px;
-	margin: 52px auto 20px;
 	font-size: 10px;
-	line-height: 24px;
+	padding:7px 0 7px 15px;
+	line-height:10px;
 	color: #565656;
 }
 
