@@ -1,138 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>shopping cart</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
+<meta charset="UTF-8">
+<title>shopping cart</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header class="g-header">
-		<nav class="m-nav m-nav-hd f-fs0">
-			<div class="f-fl">
-				<a class="logo" href="https://www.imooc.com/">
-					<img src="img/logo.png" alt="慕课网">
-				</a>
-				<a href="https://www.imooc.com/course/list">课程</a>
-				<a class="path" href="https://class.imooc.com/">职业路径<i class="icn-new"></i></a>
-				<a href="https://coding.imooc.com/">实战</a>
-				<a href="https://www.imooc.com/wenda">猿问</a>
-				<a href="https://www.imooc.com/article">手记</a>
+<header class="g-header">
+	<nav class="m-nav m-nav-hd f-fs0">
+		<div class="hd-link f-fl">
+			<a class="logo" href="https://www.imooc.com/">
+				<img src="img/logo.png" alt="慕课网">
+			</a>
+			<a href="https://www.imooc.com/course/list">课程</a>
+			<a class="path" href="https://class.imooc.com/">职业路径<i class="icn-new"></i></a>
+			<a href="https://coding.imooc.com/">实战</a>
+			<a href="https://www.imooc.com/wenda">猿问</a>
+			<a href="https://www.imooc.com/article">手记</a>
+		</div>
+		<div class="f-fr">
+			<div class="u-sch">
+				<a class="sgt-sch" href="https://class.imooc.com/sc/20">前端入门</a>
+				<i class="icn-sch"></i>
 			</div>
-			<div class="f-fr">
-				<div class="u-sch">
-					<a class="sgt-sch" href="https://class.imooc.com/sc/20">前端入门</a>
-					<i class="icn-sch"></i>
-				</div>
-				<div class="u-logined">
-					<a class="icn-cart" href="https://order.imooc.com/pay/cart"><i></i></a>
-					<a class="icn-msg" href=""><i></i></a>
-					<a class="icn-ava" href=""><i></i></a>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<section class="g-banner"></section>
-	<section class="g-settlement">
-		<h1 class="title">我的购物车</h1>
-		<dl class="m-cart">
-			<dt class="u-goods-attr f-pr">
-				<input class="goods-sel f-pa" type="checkbox" checked><span class="goods-sel-all f-pa">全选</span>
-				<span class="goods-name f-pa">商品名称</span>
-				<span class="goods-total f-pa f-tac">总价</span>
-				<span class="goods-price f-pa f-tac">单价</span>
-				<span class="goods-count f-pa">数量</span>
-				<span class="goods-del f-pa">操作</span>
-			</dt>
-			<dd class="u-goods-item f-pr">
-				<input class="goods-sel f-pa" type="checkbox" checked>
-				<a href="https://class.imooc.com/sc/20">
-					<img class="goods-img f-pa" src="img/g1.jpg" alt="前端小白成长记">
-					<span class="goods-name f-pa">前端小白成长记</span>
-				</a>
-				<span class="goods-total f-pa f-tac">￥396</span>
-				<span class="goods-price f-pa f-tac">￥396</span>
-				<div class="goods-count f-pa">
-					<button class="count-change" type="button">-</button>
-					<input class="count-value" type="text" value="1">
-					<button class="count-change" type="bututon">+</button>
-				</div>
-				<span class="goods-del f-pa">删除</span>
-			</dd>
-			<dd class="u-goods-item f-pr">
-				<input class="goods-sel f-pa" type="checkbox" checked>
-				<a href="https://class.imooc.com/sc/20">
-					<img class="goods-img f-pa" src="img/g2.jpg" alt="前端小白成长记">
-					<span class="goods-name f-pa">前端小白成长记</span>
-				</a>
-				<span class="goods-total f-pa f-tac">￥396</span>
-				<span class="goods-price f-pa f-tac">￥396</span>
-				<div class="goods-count f-pa">
-					<button class="count-change" type="button">-</button>
-					<input class="count-value" type="text" value="1">
-					<button class="count-change" type="bututon">+</button>
-				</div>
-				<span class="goods-del f-pa">删除</span>
-			</dd>
-			<dd class="u-goods-item f-pr">
-				<input class="goods-sel f-pa" type="checkbox" checked>
-				<a href="https://class.imooc.com/sc/20">
-					<img class="goods-img f-pa" src="img/g1.jpg" alt="前端小白成长记">
-					<span class="goods-name f-pa">前端小白成长记</span>
-				</a>
-				<span class="goods-total f-pa f-tac">￥396</span>
-				<span class="goods-price f-pa f-tac">￥396</span>
-				<div class="goods-count f-pa">
-					<button class="count-change" type="button">-</button>
-					<input class="count-value" type="text" value="1">
-					<button class="count-change" type="bututon">+</button>
-				</div>
-				<span class="goods-del f-pa">删除</span>
-			</dd>
-			<dd class="u-goods-item f-pr">
-				<input class="goods-sel f-pa" type="checkbox" checked>
-				<a href="https://class.imooc.com/sc/20">
-					<img class="goods-img f-pa" src="img/g1.jpg" alt="前端小白成长记">
-					<span class="goods-name f-pa">前端小白成长记</span>
-				</a>
-				<span class="goods-total f-pa f-tac">￥396</span>
-				<span class="goods-price f-pa f-tac">￥396</span>
-				<div class="goods-count f-pa">
-					<button class="count-change" type="button">-</button>
-					<input class="count-value" type="text" value="1">
-					<button class="count-change" type="bututon">+</button>
-				</div>
-				<span class="goods-del f-pa">删除</span>
-			</dd>
-		</dl>
-		<div class="u-payable">
-			<div class="f-fr f-pr">
-				<span class="payable-due">应付金额：</span>
-				<span class="payable-money">￥1584</span>
-				<button class="payable-settle f-pa" type="button">去结算</button>
+			<div class="u-logined">
+				<a class="icn-cart" href="https://order.imooc.com/pay/cart"><i></i></a>
+				<a class="icn-msg" href=""><i></i></a>
+				<a class="icn-ava" href=""><i></i></a>
 			</div>
 		</div>
-	</section>
-	<footer class="g-footer">
-		<nav class="m-nav m-nav-ft f-fs0">
-			<div class="u-link f-fl">
-				<a href="https://www.imooc.com/">网站首页</a>
-				<a href="https://www.imooc.com/about/cooperate">企业合作</a>
-				<a href="https://www.imooc.com/about/job">人才招聘</a>
-				<a href="https://www.imooc.com/about/contact">联系我们</a>
-				<a href="https://www.imooc.com/about/recruit">讲师招募</a>
-				<a href="https://www.imooc.com/about/faq">常见问题</a>
-				<a href="https://www.imooc.com/user/feedback">意见反馈</a>
-				<a href="http://daxue.imooc.com/">慕课大学</a>
-				<a href="https://www.imooc.com/about/friendly">友情链接</a>
-				<p class="u-cprt">Copyright © 2017 imooc.com All Rights Reserved | 京ICP备 13046642号-2</p>
+	</nav>
+</header>
+<section class="g-banner"></section>
+<section class="g-settlement">
+	<h1 class="title">我的购物车</h1>
+	<dl class="m-cart" id="cart">
+		<dt class="u-goods-attr f-pr">
+			<input class="sel-all-ipt f-pa" type="checkbox" checked><span class="sel-all f-pa">全选</span>
+			<span class="goods-name f-pa">商品名称</span>
+			<span class="goods-total f-pa f-tac">总价</span>
+			<span class="goods-price f-pa f-tac">单价</span>
+			<span class="goods-count f-pa">数量</span>
+			<span class="goods-del f-pa">操作</span>
+		</dt>
+		<dd class="u-goods-item f-pr">
+			<input class="sel-ipt f-pa" type="checkbox" checked>
+			<a href="https://class.imooc.com/sc/20">
+				<img class="goods-img f-pa" src="img/g1.jpg" alt="前端小白成长记">
+				<span class="goods-name f-pa">前端小白成长记</span>
+			</a>
+			<span class="goods-total f-pa f-tac">￥396</span>
+			<span class="goods-price f-pa f-tac">￥396</span>
+			<div class="goods-count f-pa">
+				<button class="count-change" type="button">-</button>
+				<input class="count-value" type="text" value="1">
+				<button class="count-change" type="bututon">+</button>
 			</div>
-			<div class="u-sns f-fr f-fs0">
-				<a class="weixin" href=""><i></i></a>
-				<a class="weibo" href=""></a>
-				<a class="qq" href=""></a>
+			<span class="goods-del f-pa">删除</span>
+		</dd>
+		<dd class="u-goods-item f-pr">
+			<input class="sel-ipt f-pa" type="checkbox" checked>
+			<a href="https://class.imooc.com/sc/20">
+				<img class="goods-img f-pa" src="img/g2.jpg" alt="前端小白成长记">
+				<span class="goods-name f-pa">前端小白成长记</span>
+			</a>
+			<span class="goods-total f-pa f-tac">￥396</span>
+			<span class="goods-price f-pa f-tac">￥396</span>
+			<div class="goods-count f-pa">
+				<button class="count-change" type="button">-</button>
+				<input class="count-value" type="text" value="1">
+				<button class="count-change" type="bututon">+</button>
 			</div>
-		</nav>
-	</footer>
+			<span class="goods-del f-pa">删除</span>
+		</dd>
+		<dd class="u-goods-item f-pr">
+			<input class="sel-ipt f-pa" type="checkbox" checked>
+			<a href="https://class.imooc.com/sc/20">
+				<img class="goods-img f-pa" src="img/g1.jpg" alt="前端小白成长记">
+				<span class="goods-name f-pa">前端小白成长记</span>
+			</a>
+			<span class="goods-total f-pa f-tac">￥396</span>
+			<span class="goods-price f-pa f-tac">￥396</span>
+			<div class="goods-count f-pa">
+				<button class="count-change" type="button">-</button>
+				<input class="count-value" type="text" value="1">
+				<button class="count-change" type="bututon">+</button>
+			</div>
+			<span class="goods-del f-pa">删除</span>
+		</dd>
+		<dd class="u-goods-item f-pr">
+			<input class="sel-ipt f-pa" type="checkbox" checked>
+			<a href="https://class.imooc.com/sc/20">
+				<img class="goods-img f-pa" src="img/g1.jpg" alt="前端小白成长记">
+				<span class="goods-name f-pa">前端小白成长记</span>
+			</a>
+			<span class="goods-total f-pa f-tac">￥396</span>
+			<span class="goods-price f-pa f-tac">￥396</span>
+			<div class="goods-count f-pa">
+				<button class="count-change" type="button">-</button>
+				<input class="count-value" type="text" value="1">
+				<button class="count-change" type="bututon">+</button>
+			</div>
+			<span class="goods-del f-pa">删除</span>
+		</dd>
+	</dl>
+	<div class="u-payable">
+		<div class="f-fr f-pr">
+			<span class="payable-due">应付金额：</span>
+			<span class="payable-money">￥1584</span>
+			<button class="payable-settle f-pa" type="button">去结算</button>
+		</div>
+	</div>
+</section>
+<footer class="g-footer">
+	<nav class="m-nav m-nav-ft f-fs0">
+		<div class="u-link f-fl">
+			<a href="https://www.imooc.com/">网站首页</a>
+			<a href="https://www.imooc.com/about/cooperate">企业合作</a>
+			<a href="https://www.imooc.com/about/job">人才招聘</a>
+			<a href="https://www.imooc.com/about/contact">联系我们</a>
+			<a href="https://www.imooc.com/about/recruit">讲师招募</a>
+			<a href="https://www.imooc.com/about/faq">常见问题</a>
+			<a href="https://www.imooc.com/user/feedback">意见反馈</a>
+			<a href="http://daxue.imooc.com/">慕课大学</a>
+			<a href="https://www.imooc.com/about/friendly">友情链接</a>
+			<p class="u-cprt">Copyright © 2017 imooc.com All Rights Reserved | 京ICP备 13046642号-2</p>
+		</div>
+		<div class="u-sns f-fr f-fs0">
+			<a class="weixin" href=""><i></i></a>
+			<a class="weibo" href=""></a>
+			<a class="qq" href=""></a>
+		</div>
+	</nav>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>
