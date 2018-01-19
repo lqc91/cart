@@ -42,7 +42,7 @@
 	background-color:#010101;
 }
 .m-nav-hd a:hover{
-	background:#363c41;
+	background-color:#363c41;
 }
 .m-nav-hd .logo {
 	width: 128px;
@@ -149,6 +149,9 @@
 .u-logined .icn-ava i{
 	border-radius: 50%;
 	background: url("../img/ava.jpg") 0/cover no-repeat content-box;
+}
+.u-logined a:hover{
+	transition:background-color .5s linear;
 }
 
 .u-goods-attr {
@@ -325,15 +328,15 @@
 }
 .u-sns .weixin i{
 	display:none;
-}
-.u-sns .weixin:hover i{
-	display:block;
 	position:absolute;
 	bottom:40px;
 	left:-66px;
 	width:160px;
 	height:210px;
 	background:url("../img/footer-sprite.png") -3px -2px no-repeat;
+}
+.u-sns .weixin:hover i{
+	display:block;
 }
 
 .u-sns .weibo{
