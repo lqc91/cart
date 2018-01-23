@@ -77,6 +77,21 @@
 	border: 1px solid #dcdcdc;
 	box-shadow: 0 0 5px 5px #ebebeb;
 }
+.m-cart .u-goods-attr,
+.m-cart .u-goods-item {
+	position:relative;
+}
+.m-cart .sel-all-ipt,
+.m-cart .sel-ipt,
+.m-cart .sel-all,
+.m-cart .goods-img,
+.m-cart .goods-name,
+.m-cart .goods-total,
+.m-cart .goods-price,
+.m-cart .goods-count,
+.m-cart .goods-del {
+	position:absolute;
+}
 
 /* 元件 */
 .u-sch {
@@ -172,26 +187,26 @@
 	left: 42px;
 }
 
-.u-goods-attr .attr-name {
+.u-goods-attr .goods-name {
 	left: 102px;
 }
 
-.u-goods-attr .attr-total {
+.u-goods-attr .goods-total {
 	left: 455px;
 	width: 80px;
 }
 
-.u-goods-attr .attr-price {
+.u-goods-attr .goods-price {
 	left: 585px;
 	width: 80px;
 }
 
-.u-goods-attr .attr-count {
+.u-goods-attr .goods-count {
 	left: 720px;
 	width: 96px;
 }
 
-.u-goods-attr .attr-del {
+.u-goods-attr .goods-del {
 	left: 996px;
 }
 
@@ -205,34 +220,34 @@
 	left: 20px;
 }
 
-.u-goods-item .item-img {
+.u-goods-item .goods-img {
 	left: 52px;
 	width: 160px;
 	height: 90px;
 	margin: 15px 10px;
 }
 
-.u-goods-item .item-name {
+.u-goods-item .goods-name {
 	left: 230px;
 	margin-top: 20px;
 	font-size: 20px;
 }
 
-.u-goods-item .item-total {
+.u-goods-item .goods-total {
 	left: 455px;
 	margin-top: 32px;
 	width: 80px;
 	font-family: "Microsoft YaHei";
 }
 
-.u-goods-item .item-price {
+.u-goods-item .goods-price {
 	left: 585px;
 	margin-top: 32px;
 	width: 80px;
 	font-family: "Microsoft YaHei";
 }
 
-.u-goods-item .item-count {
+.u-goods-item .goods-count {
 	left: 720px;
 	margin-top: 32px;
 	width: 96px;
@@ -257,7 +272,7 @@
 	border: 1px solid #dbdbdb;
 }
 
-.u-goods-item .item-del {
+.u-goods-item .goods-del {
 	left: 996px;
 	font-family: SimHei;
 	margin-top: 32px;
