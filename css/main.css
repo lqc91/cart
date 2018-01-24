@@ -263,11 +263,14 @@
 	width: 96px;
 }
 
-.u-goods-item .count-subtract,
-.u-goods-item .count-add {
+.u-goods-item .subtract,
+.u-goods-item .add {
 	width: 10px;
 	height: 10px;
 	line-height: 10px;
+	vertical-align:middle;
+	text-align:center;
+	box-sizing:border-box;
 	font-size: 8px;
 	color: #696969;
 	background: #fff;
@@ -275,7 +278,7 @@
 	cursor: pointer;
 }
 
-.u-goods-item .count-value {
+.u-goods-item .num {
 	width: 58px;
 	height: 22px;
 	font-family: "Microsof YaHei";
