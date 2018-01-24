@@ -1,4 +1,5 @@
-// var cart = document.querySelector("#cart");
+// 若将var cart = document.querySelector("#cart");注释，代码为何正常运行而不报错？
+var cart = document.querySelector("#cart");
 var selAll = cart.querySelector(".sel-all-ipt");
 var sel = cart.querySelectorAll(".sel-ipt");
 var selLen = sel.length;

@@ -28,6 +28,9 @@
 }
 
 /* 模块 */
+.m-nav {
+	font-size:0;
+}
 .m-nav a {
 	display: inline-block;
 	position: relative;
@@ -38,7 +41,10 @@
 	color: #fff;
 	padding: 0 26px;
 }
-.hd-link:hover a{
+.m-nav-hd .link {
+	float:left;
+}
+.m-nav-hd .link:hover a{
 	background-color:#010101;
 }
 .m-nav-hd a:hover{
@@ -76,6 +82,25 @@
 	background-color: #fff;
 	border: 1px solid #dcdcdc;
 	box-shadow: 0 0 5px 5px #ebebeb;
+}
+.m-cart .u-goods-attr,
+.m-cart .u-goods-item {
+	position:relative;
+}
+.m-cart .sel-all-ipt,
+.m-cart .sel-ipt,
+.m-cart .sel-all,
+.m-cart .image,
+.m-cart .name,
+.m-cart .total,
+.m-cart .price,
+.m-cart .count,
+.m-cart .del {
+	position:absolute;
+}
+.m-cart .total,
+.m-cart .price {
+	text-align:center;
 }
 
 /* 元件 */
@@ -172,26 +197,26 @@
 	left: 42px;
 }
 
-.u-goods-attr .attr-name {
+.u-goods-attr .name {
 	left: 102px;
 }
 
-.u-goods-attr .attr-total {
+.u-goods-attr .total {
 	left: 455px;
 	width: 80px;
 }
 
-.u-goods-attr .attr-price {
+.u-goods-attr .price {
 	left: 585px;
 	width: 80px;
 }
 
-.u-goods-attr .attr-count {
+.u-goods-attr .count {
 	left: 720px;
 	width: 96px;
 }
 
-.u-goods-attr .attr-del {
+.u-goods-attr .del {
 	left: 996px;
 }
 
@@ -205,34 +230,34 @@
 	left: 20px;
 }
 
-.u-goods-item .item-img {
+.u-goods-item .image {
 	left: 52px;
 	width: 160px;
 	height: 90px;
 	margin: 15px 10px;
 }
 
-.u-goods-item .item-name {
+.u-goods-item .name {
 	left: 230px;
 	margin-top: 20px;
 	font-size: 20px;
 }
 
-.u-goods-item .item-total {
+.u-goods-item .total {
 	left: 455px;
 	margin-top: 32px;
 	width: 80px;
 	font-family: "Microsoft YaHei";
 }
 
-.u-goods-item .item-price {
+.u-goods-item .price {
 	left: 585px;
 	margin-top: 32px;
 	width: 80px;
 	font-family: "Microsoft YaHei";
 }
 
-.u-goods-item .item-count {
+.u-goods-item .count {
 	left: 720px;
 	margin-top: 32px;
 	width: 96px;
@@ -257,7 +282,7 @@
 	border: 1px solid #dbdbdb;
 }
 
-.u-goods-item .item-del {
+.u-goods-item .del {
 	left: 996px;
 	font-family: SimHei;
 	margin-top: 32px;
@@ -273,18 +298,24 @@
 	margin: 20px auto 38px;
 }
 
-.u-pay .pay-due {
+.u-pay .wrap {
+	float:right;
+	position:relative;
+}
+
+.u-pay .due {
 	font-size: 12px;
 }
 
-.u-pay .pay-money {
+.u-pay .money {
 	font-size: 16px;
 	font-weight: bold;
 	color: #cb1e31;
 	margin-right: 140px;
 }
 
-.u-pay .pay-settle {
+.u-pay .settle {
+	position:absolute;
 	top: -1px;
 	right: 0;
 	width: 120px;
@@ -296,6 +327,7 @@
 }
 
 .u-link{
+	float:left;
 	margin:23px 0;
 }
 .u-link a {
@@ -310,7 +342,9 @@
 }
 
 .u-sns{
+	float:right;
 	margin:32px 0;
+	font-size:0;
 }
 .u-sns a {
 	display: inline-block;
@@ -355,26 +389,6 @@
 }
 
 /* 功能 */
-.f-fl {
-	float: left;
-}
-
 .f-fr {
 	float: right;
-}
-
-.f-pr {
-	position: relative;
-}
-
-.f-pa {
-	position: absolute;
-}
-
-.f-tac {
-	text-align: center;
-}
-
-.f-fs0 {
-	font-size: 0;
 }
